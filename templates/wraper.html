@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>ScorpDEv | Projects</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">ScorpDEv</a>
+    <div class="collapse navbar-collapse justify-content-end nav-pills" id="navbarNav">
+    <ul class="nav">
+        <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="/team">Team</a>
+  </li>
+</ul>
+    </div>
+</nav>
+<div class="container totop">
+<div class="row">
+    <div class="col-sm-4">
+        <img src="{% static 'img/sc.jpg' %}" class="img-fluid imageupteam testop">
+    </div>
+    <div class="col-sm-8">
+        <div class="jumbotron testop">
+  <h1 align="center" class="display-4">Instagram</h1>
+  <p align="center" class="lead">Download photos from Instagram easily!</p>
+  <hr class="my-4">
+  <p class="lead" align="center">
+    <a class="btn btn-warning btn-lg" href="" role="button">Learn more</a>
+  </p>
+</div>
+    </div>
+</div>
+</div>
+</body>
+</html>

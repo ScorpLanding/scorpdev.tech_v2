@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>ScorpDEv | Team</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">ScorpDEv</a>
+    <div class="collapse navbar-collapse justify-content-end nav-pills" id="navbarNav">
+    <ul class="nav">
+        <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/projects">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="">Team</a>
+  </li>
+</ul>
+    </div>
+</nav>
+
+    <div class="container totop">
+  <div class="row">
+    <div class="col-sm-4" align="center">
+      <div class="jumbotron testop">
+          <img src="{% static 'img/119606_original_3654x5473.jpg' %}" class="img-fluid imageupteam">
+  <h1 class="display-4">Daniil Kutash</h1>
+  <p class="lead">Python Developer</p>
+  <hr class="my-4">
+  <p>Team Lead</p>
+  <p class="lead">
+    <a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+    </div>
+      <div class="col-sm-4" align="center">
+    </div>
+    <div class="col-sm-4" align="center">
+      <div class="jumbotron testop">
+          <img src="{% static 'img/vlad.jpg' %}" class="img-fluid imageupteam">
+  <h1 class="display-4">Vlad Pavlenko</h1>
+  <p class="lead">C++ Developer</p>
+  <hr class="my-4">
+  <p>ETC</p>
+  <p class="lead">
+    <a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

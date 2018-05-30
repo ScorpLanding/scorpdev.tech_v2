@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>ScorpDEv</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">ScorpDEv</a>
+    <div class="collapse navbar-collapse justify-content-end nav-pills" id="navbarNav">
+    <ul class="nav">
+        <li class="nav-item">
+        <a class="nav-link active" href="">Home</a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" href="projects">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="team">Team</a>
+  </li>
+</ul>
+    </div>
+</nav>
+
+<div class="container totop">
+  <div class="row">
+      <div class="col-sm-5">
+          <img src="{% static 'img/sc.jpg' %}" class="img-fluid imageup">
+      </div>
+    <div class="col-sm-7 nicelow" align="center">
+      <div class="jumbotron testop">
+  <h1 class="display-4">ScorpDEv</h1>
+  <p class="lead">Scorp Developers! Our team is the best coders in the world, we can write Android Apps, Sites, Scripts etc.</p>
+  <hr class="my-4">
+  <p class="lead">
+    <blockquote class="blockquote text-left">
+          The will to win, the desire to succeed, the urge to reach your full potential… these are the keys that will unlock the door to personal excellence.
+      </blockquote>
+          <footer class="blockquote-footer text-right">Confucius</footer>
+  </p>
+</div>
+    </div>
+</div>
+</div>
+</body>
+</html>
